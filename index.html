@@ -14,24 +14,30 @@
             <form action="#">
                 <div>Name</div>
                 <input type="text" name="form1" id="userName">
+                <div class="error"></div>
 
                 <div>Surname</div>
                 <input type="text" name="form1" id="userSurname">
+                <div class="error"></div>
 
                 <div>Password</div>
                 <input type="password" name="form1" id="password">
+                <div class="error"></div>
 
                 <div>Email</div>
                 <input type="text" name="form1" id="email">
+                <div class="error"></div>
 
                 <div>Phone number</div>
                 <input type="text" name="form1" id="phone">
+                <div class="error"></div>
 
                 <div>Address</div>
                 <input type="text" name="form1" id="address">
+                <div class="error"></div>
 
                 <div class="btns">
-                    <button class="btn" type="submit">Send</button>
+                    <button onclick="checkFields" class="btn" type="submit">Send</button>
                     <button class="btn" type="reset">Reset</button>
                 </div>
             </form>   
